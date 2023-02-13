@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-:hidden;
+   
+}
+.main{
+    background-image: url('images/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.gallery{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: -5rem;
+}
+.mov-btn{
+    display: flex;
+   align-items: center;
+}
+span{
+    color: #2FBDFC;
+}
+button:hover{
+    background-color: #2FBDFC;
+}
+  .button {
+    border-color: #2FBDFC;
+  }
+
+  button:hover {
+    background-color: #2FBDFC;
+    color: white;
+  }
+
+  .btn1 {
+    background-color: white;
+    border: 1px solid #2FBDFC;
+    border-radius: 0.8rem;
+    color: #2FBDFC;
+    padding: 10px 20px;
+  }
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #2FBDFC;
+
+  }
+
+  img {
+    border-radius: 1rem;
+    width: 100%;
+  }
+  .img{
+    border-radius: 0%;
+  }
+
+  .card-img-top {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: none;
+  }
+
+  .card {
+    border: none;
+    margin-right: 2rem;
+
+  }
+  .sec-4{
+    color:#2FBDFC;
+ 
+  }
+  .li{
+    text-decoration: line-through;
+    color:lightgray
+  }
+  .btn1 {
+    background-color: transparent;
+    border: 1px solid #2FBDFC;
+    border-radius: 2rem;
+    color: #2FBDFC;
+    padding: 10px 20px;
+  }
+  .btn1:hover{
+    color: black;
+  }
+  img {
+    border-radius: 1rem;
+    width: 100%;
+  }
+  .li {
+    text-decoration: line-through;
+    color: lightgray
+  }
+  .card-img-top {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: none;
+  }
+  .card {
+    border: none;
+    margin-right: 2rem;
+
+  }
+
+  .sec-4 {
+    color: #2FBDFC;
+
+  }
+  div a{
+    color: white;
+  }
+  div a:hover{
+    color: #2FBDFC;
+  }
+  .div-b{
+    color: white;
+  }
+  .div-b:hover{
+    color: #2FBDFC;
+  }
+
+  @media screen and (max-width:500px) {
+    .main{
+       height: 90vh;
+    }
+    
+  }
+  @media screen and (max-width:500px){
+    h1{
+      font-size: small;
+    }
+  }
