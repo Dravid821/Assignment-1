@@ -1,128 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-: hidden;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-:hidden;
-   
 }
-ul .p-2{
+
+ul .p-2 {
   padding: 0.6rem;
 
 }
-.navbar{
+
+.navbar {
   padding: 0%;
 }
-.main{
-    background-image: url('images/banner-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+
+.main {
+  background-image: url('images/banner-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.gallery{
-    display: flex;
-    justify-content:space-evenly;
-    margin-top: -7rem;
-    gap:1rem
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -7rem;
+  gap: 1rem
 }
-.mov-btn{
-    display: flex;
-   align-items: center;
+
+.mov-btn {
+  display: flex;
+  align-items: center;
 }
-span{
-    color: #2FBDFC;
+
+span {
+  color: #2FBDFC;
 }
-button:hover{
-    background-color: #2FBDFC;
+
+button:hover {
+  background-color: #2FBDFC;
 }
-  .button {
-    border-color: #2FBDFC;
-  }
 
-  button:hover {
-    background-color: #2FBDFC;
-    color: white;
-  }
+.button {
+  border-color: #2FBDFC;
+}
 
-  .btn1 {
-    background-color: white;
-    border: 1px solid #2FBDFC;
-    border-radius: 0.8rem;
-    color: #2FBDFC;
-    padding: 10px 20px;
-  }
-  a {
-    color: white;
-  }
+button:hover {
+  background-color: #2FBDFC;
+  color: white;
+}
 
-  a:hover {
-    text-decoration: none;
-    color: #2FBDFC;
+.btn1 {
+  background-color: white;
+  border: 1px solid #2FBDFC;
+  border-radius: 0.8rem;
+  color: #2FBDFC;
+  padding: 10px 20px;
+}
 
-  }
+a {
+  color: white;
+}
 
-  img {
-    border-radius: 1rem;
-    width: 100%;
-  }
-  .img{
-    border-radius: 0%;
-  }
-  .sec-4{
-    color:#2FBDFC;
- 
-  }
-  .li{
-    text-decoration: line-through;
-    color:lightgray
-  }
-  .btn1 {
-    background-color: transparent;
-    border: 1px solid #2FBDFC;
-    border-radius: 4px;
-    color: #2FBDFC;
-    padding: 10px 20px;
-  }
-  .btn1:hover{
-    color: black;
-  }
-  img {
-    border-radius: 1rem;
-    width: 100%;
-  }
-  .li {
-    text-decoration: line-through;
-    color: lightgray
-  }
-  .sec-4 {
-    color: #2FBDFC;
+a:hover {
+  text-decoration: none;
+  color: #2FBDFC;
 
-  }
-  div a{
-    color: white;
-  }
-  div a:hover{
-    color: #2FBDFC;
-  }
-  .div-b{
-    color: white;
-  }
-  .div-b:hover{
-    color: #2FBDFC;
-  }
- .btn_f{
+}
+
+img {
+  border-radius: 0rem;
+  width: 100vw;
+}
+
+.sec-4 {
+  color: #2FBDFC;
+
+}
+
+.li {
+  text-decoration: line-through;
+  color: lightgray
+}
+
+.btn1 {
+  background-color: transparent;
+  border: 1px solid #2FBDFC;
+  border-radius: 4px;
+  color: #2FBDFC;
+  padding: 10px 20px;
+}
+
+.btn1:hover {
+  color: black;
+}
+
+img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.li {
+  text-decoration: line-through;
+  color: lightgray
+}
+
+.sec-4 {
+  color: #2FBDFC;
+
+}
+
+div a {
+  color: white;
+}
+
+div a:hover {
+  color: #2FBDFC;
+}
+
+.div-b {
+  color: white;
+}
+
+.div-b:hover {
+  color: #2FBDFC;
+}
+
+.btn_f {
   border-radius: 1px solid skyblue;
- }
- .next{
+}
+
+.next {
   background-color: #2FBDFC;
   border-radius: 1px skyblue;
   margin-top: -1rem;
- }
+}
 
-  @media screen and (max-width:600px){
-    .main{
-       height: 90vh;
-    }
-    
+.mov-div {
+  color: #2FBDFC;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width:600px) {
+  .main {
+    height: 90vh;
   }
+
+}
