@@ -6,6 +6,10 @@
     overflow-:hidden;
    
 }
+ul .p-2{
+  padding: 0.6rem;
+
+}
 .navbar{
   padding: 0%;
 }
@@ -13,15 +17,14 @@
     background-image: url('images/banner-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-}
-.btn-outline
+    height: 70vh;
 }
 
 .gallery{
     display: flex;
     justify-content:space-evenly;
-    margin-top: -5rem;
+    margin-top: -7rem;
+    gap:1rem
 }
 .mov-btn{
     display: flex;
@@ -66,18 +69,6 @@ button:hover{
   .img{
     border-radius: 0%;
   }
-
-  .card-img-top {
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border: none;
-  }
-
-  .card {
-    border: none;
-    margin-right: 2rem;
-
-  }
   .sec-4{
     color:#2FBDFC;
  
@@ -89,7 +80,7 @@ button:hover{
   .btn1 {
     background-color: transparent;
     border: 1px solid #2FBDFC;
-    border-radius: 2rem;
+    border-radius: 4px;
     color: #2FBDFC;
     padding: 10px 20px;
   }
@@ -104,17 +95,6 @@ button:hover{
     text-decoration: line-through;
     color: lightgray
   }
-  .card-img-top {
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border: none;
-  }
-  .card {
-    border: none;
-    margin-right: 2rem;
-
-  }
-
   .sec-4 {
     color: #2FBDFC;
 
@@ -131,15 +111,18 @@ button:hover{
   .div-b:hover{
     color: #2FBDFC;
   }
+ .btn_f{
+  border-radius: 1px solid skyblue;
+ }
+ .next{
+  background-color: #2FBDFC;
+  border-radius: 1px skyblue;
+  margin-top: -1rem;
+ }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:600px){
     .main{
        height: 90vh;
     }
     
-  }
-  @media screen and (max-width:500px){
-    h1{
-      font-size: small;
-    }
   }
