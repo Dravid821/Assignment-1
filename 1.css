@@ -2,12 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-: hidden;
-
-}
-
-ul .p-2 {
-  padding: 0.6rem;
 
 }
 
@@ -19,7 +13,7 @@ ul .p-2 {
   background-image: url('images/banner-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
 }
 
 .gallery {
@@ -70,8 +64,12 @@ a:hover {
 }
 
 img {
-  border-radius: 0rem;
-  width: 100vw;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.img {
+  border-radius: 0%;
 }
 
 .sec-4 {
@@ -84,6 +82,10 @@ img {
   color: lightgray
 }
 
+.pc {
+  font-size: inherit;
+}
+
 .btn1 {
   background-color: transparent;
   border: 1px solid #2FBDFC;
@@ -94,11 +96,6 @@ img {
 
 .btn1:hover {
   color: black;
-}
-
-img {
-  border-radius: 1rem;
-  width: 100%;
 }
 
 .li {
@@ -145,6 +142,37 @@ div a:hover {
 @media screen and (max-width:600px) {
   .main {
     height: 90vh;
+    font-size: 1rem;
+  }
+
+  .b23 {
+    align-items: center;
   }
 
 }
+
+@media screen and (min-width:300px) and (max-width:600) {
+  .main {
+    height: 90vh;
+    font-size: 1rem;
+  }
+
+  .gallery {
+    height: inherit;
+    width: 10rem;
+  }
+
+}
+
+@media screen and (min-width:600px) and (max-width:1500) {
+  .main {
+    height: inherit;
+    font-size: inherit;
+  }
+
+  .gallery {
+    height: inherit;
+    width: auto;
+  }
+}
+@media
