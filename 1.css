@@ -4,6 +4,9 @@
   box-sizing: border-box;
 
 }
+body{
+  text-align: center;
+}
 
 .navbar {
   padding: 0%;
@@ -175,4 +178,3 @@ div a:hover {
     width: auto;
   }
 }
-@media
